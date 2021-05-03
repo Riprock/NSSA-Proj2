@@ -1,0 +1,14 @@
+C:\Users\Evan\Documents\3rdyear\NSSA\Proj2\NSSA-Proj2\Captures\Node1
+Echo Requests Sent,Echo Requests Recieved,Echo Replies Sent,Echo Replies Recieved
+128,49,49,128
+Echo Request Bytes sent (bytes),Echo Request Data Sent (bytes)
+89452,84076
+Echo Request Bytes Recieved (bytes),Echo Request Data Recieved (bytes)
+51904,49846
+ 
+Average RTT (miliseconds),1.665000000002692
+Echo Request Throughput (kB/sec),272.5
+Echo Request Goodput (kB/sec),256.0942549663455
+Average Reply Delay,55.51
+Average Echo Request Hop Count,1.24
+ 
