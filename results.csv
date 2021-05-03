@@ -6,9 +6,9 @@ Echo Request Bytes sent (bytes),Echo Request Data Sent (bytes)
 Echo Request Bytes Recieved (bytes),Echo Request Data Recieved (bytes)
 51904,49846
  
-Average RTT (miliseconds),1.665000000002692
+Average RTT (miliseconds),2.56
 Echo Request Throughput (kB/sec),272.5
-Echo Request Goodput (kB/sec),256.0942549663455
+Echo Request Goodput (kB/sec),256.1
 Average Reply Delay,55.51
 Average Echo Request Hop Count,1.24
  

@@ -100,14 +100,14 @@ def rtt(packets, ip):
 			total += (float(packets[i + 1][1]) - (float(packets[i][1])))
 			count += 1
 			avrg = (total / count) * 1000
-		return avrg
+	return round(avrg, 2)
 
 def request_goodput(packets, ip, request_data):
 	count = 0
 	for i in range(0, len(packets), 2):
 		if ip in packets[i][2] and "request" in packets[i][8]:
 			count += (float(packets[i + 1][1]) - float(packets[i][1]))
-	return round((request_data / count) / 1000, 2)
+	return round((request_data / count) / 1000, 1)
 
 def averageReplyDelay(packets, ipadd) :
 	total = 0
